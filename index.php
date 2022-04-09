@@ -13,7 +13,7 @@
 	$result = pg_query($cn,"SELECT * FROM HTQL_QuanLySinhVien");
 	while($row= pg_fetch_object($result))
 	{
-		echo "\n".$row->Tensinhvien;
+		echo "\n".$row->Mssv;
 	}
 	?>
 	</body>
