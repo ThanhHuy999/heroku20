@@ -13,6 +13,7 @@ html>
 	while($row=pg_fetch_object($result)){
 		echo "\n" .$row->Tensinhvien;
 	}
+	pg_close($cn);
 	?>
 	</body>
 </html>
