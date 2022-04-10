@@ -14,7 +14,7 @@
 		<br>
 		Ho va ten: <input type="password" name="pword">
 		<br>
-		<input type="button">
+		<input type="button" value="Them sinh vien">
 		</pre>
 	      </form>
 	<?php
