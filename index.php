@@ -14,6 +14,7 @@
 	while($row= pg_fetch_row($result))
 	{
 		echo "MSSV: $row[0] Email: $row[1]";
+		echo "\n";
 	}
 	?>
 	</body>
