@@ -14,9 +14,9 @@
 		<br>
 		Họ và tên: <input type="text" name="pword">
 		<br>
-		<input type="button" value="THÊM">
-		<input type="button" value="SỬA">
-		<input type="button" value="XÓA">
+		<input type="button" name="them" value="THÊM">
+		<input type="button" name="sua" value="SỬA">
+		<input type="button" name="xoa" value="XÓA">
 		<hr>
 		</pre>
 	      </form>
