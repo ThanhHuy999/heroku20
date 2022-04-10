@@ -8,7 +8,7 @@
 
 	<body>
 	<h1>Hệ thống quản lý sinh viên</h1>
-	<form name="flogin" method="GET" action="xuly.php"
+	<form name="flogin" method="POST" action="xuly.php"
 	      <pre>
 		Mã số sinh viên: <input type="text" name="uname">
 		<br>
