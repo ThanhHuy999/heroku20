@@ -11,7 +11,7 @@
 	<?php
 	$cn = pg_connect("host=ec2-18-214-134-226.compute-1.amazonaws.com port=5432 dbname=d5tmin00bciu1i user=zmqcfqvmpyljhr password=9f82098da86027af5990973f6e6f36ad470852bdd6b70a9bccd9cb6cb603495d");
 	$result = pg_query($cn,"SELECT * FROM HTQL_QuanLySinhVien");
-	while($row= pg_fetch_object($result))
+	while($row= pg_fetch_row($result))
 	{
 		echo "MSSV: $row[0] Email: $row[1]";
 	}
