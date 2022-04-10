@@ -10,10 +10,11 @@
 	<h1>Hệ thống quản lý sinh viên</h1>
 	<form name="flogin" method="GET" action="xuly.php"
 	      <pre>
-		MSSV <input type="text" name="uname">
+		MSSV: <input type="text" name="uname">
 		<br>
-		Ho va ten <input type="password" name="pword">
-		<input type="text">
+		Ho va ten: <input type="password" name="pword">
+		<br>
+		<input type="button">
 		</pre>
 	      </form>
 	<?php
