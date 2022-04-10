@@ -8,6 +8,14 @@
 
 	<body>
 	<h1>Hệ thống quản lý sinh viên</h1>
+	<form name="flogin" method="GET" action="xuly.php"
+	      <pre>
+		MSSV <input type="text" name="uname">
+		<br>
+		Ho va ten <input type="password" name="pword">
+		<input type="text">
+		</pre>
+	      </form>
 	<?php
 	$cn = pg_connect("host=ec2-18-214-134-226.compute-1.amazonaws.com port=5432 dbname=d5tmin00bciu1i user=zmqcfqvmpyljhr password=9f82098da86027af5990973f6e6f36ad470852bdd6b70a9bccd9cb6cb603495d");
 	$result = pg_query($cn,"SELECT * FROM HTQL_QuanLySinhVien");
