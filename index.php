@@ -14,9 +14,9 @@
 		<br>
 		Ho va ten: <input type="password" name="pword">
 		<br>
-		<input type="button" value="Them sinh vien">
-		<input type="button" value="Sua sinh vien">
-		<input type="button" value="Xoa sinh vien">
+		<input type="button" value="THÊM">
+		<input type="button" value="SỬA">
+		<input type="button" value="XÓA">
 		</pre>
 	      </form>
 	<?php
