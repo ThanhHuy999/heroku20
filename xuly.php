@@ -1,4 +1,12 @@
 <?php
+$cn = pg_connect("host=ec2-18-214-134-226.compute-1.amazonaws.com port=5432 dbname=d5tmin00bciu1i user=zmqcfqvmpyljhr password=9f82098da86027af5990973f6e6f36ad470852bdd6b70a9bccd9cb6cb603495d");
+$name = $_POST["uname"];
+$hovaten = $_POST["pword"]
+$query = "them mot sinh vien ('".$name."', ".$price.")";
+$res = pg_query($cn, $query);
+if($res){
+	echo "Saved";
+}
 echo "Welcome " . $_POST['uname'] . "<br>";
 echo "Your email address is:" . $_POST['pword'];
 ?>
