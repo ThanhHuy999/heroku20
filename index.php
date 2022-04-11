@@ -28,6 +28,7 @@
 		echo "MSSV: $row[0] Email: $row[1]";
 		echo "\n";
 	}
+	pg_close($cn);
 	?>
 	</body>
 </html>
