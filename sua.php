@@ -53,7 +53,7 @@
 			while($row= pg_fetch_row($result1))
 			{
 				echo "MSSV: $row[0] Ho va ten: $row[1]";
-				echo "\n";
+				echo "<br>";
 			}
 			pg_close($cn);
 			?>  
