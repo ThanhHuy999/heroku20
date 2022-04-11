@@ -9,7 +9,7 @@
 
 	<body>
 		<h1 style="color: orange;">Hệ thống quản lý sinh viên</h1>
-		<h2>Thêm sinh viên</h2>
+		<h2 style="color: red;">Thêm sinh viên</h2>
 			<form name="flogin" method="POST" action="xuly.php"
 			      <pre>
 				Mã số sinh viên: <input type="text" name="uname">
