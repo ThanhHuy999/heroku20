@@ -16,8 +16,6 @@
 				Họ và tên: <input type="text" name="pword">
 				<br>
 				<input type="submit" name="them" value="THÊM">
-				<input type="button" name="sua" value="SỬA">
-				<input type="button" name="xoa" value="XÓA">
 				<hr>
 				</pre>
 			      </form>
