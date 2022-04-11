@@ -1,8 +1,8 @@
 <?php
 	$cn = pg_connect("host=ec2-18-214-134-226.compute-1.amazonaws.com port=5432 dbname=d5tmin00bciu1i user=zmqcfqvmpyljhr password=9f82098da86027af5990973f6e6f36ad470852bdd6b70a9bccd9cb6cb603495d");
-	$name = $_POST['uname'];
-	$hovaten = $_POST['pword']
-	$query1 = "INSERT INTO HTQL_QuanLySinhVien VALUES ('$name','$hovaten')";
+	$uname = $_POST['uname'];
+	$pword = $_POST['pword']
+	$query1 = "INSERT INTO HTQL_QuanLySinhVien VALUES ('$uname','$pword')";
 	$result = pg_query($cn, $query1);
 	pg_close($cn);
 ?>
