@@ -52,7 +52,8 @@
 			$result1 = pg_query($cn,"SELECT * FROM HTQL_QuanLySinhVien");
 			while($row= pg_fetch_row($result1))
 			{
-				echo "MSSV: $row[0] Ho va ten: $row[1] \n";
+				echo "MSSV: $row[0] Ho va ten: $row[1]";
+				echo "\n";
 			}
 			pg_close($cn);
 			?>  
