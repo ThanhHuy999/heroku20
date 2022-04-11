@@ -7,8 +7,8 @@
 	</head>
 
 	<body>
-		<h1>Hệ thống quản lý sinh viên</h1>
-			<h2>Thêm sinh viên</h2>
+		<h1 style="color: orange;">Hệ thống quản lý sinh viên</h1>
+			<h2 style="color: red;">Thêm sinh viên</h2>
 				<form name="add" method="POST" action="xuly.php"
 				      <pre>
 						Mã số sinh viên: <input type="text" name="uname">
@@ -20,7 +20,7 @@
 					</pre>
 				  </form>
 			<hr>
-			<h2>Sửa nhân viên</h2>
+			<h2 style="color: red;">Sửa sinh viên</h2>
 				<form name="update" method="POST" action="sua.php"
 				      <pre>
 						Mã số sinh viên cần sửa thông tin: <input type="text" name="uname">
@@ -32,14 +32,14 @@
 					</pre>
 				  </form>
 			<hr>
-			<h2>Xóa nhân viên</h2>
+			<h2 style="color: red;">Xóa sinh viên viên</h2>
 				<form name="delete" method="POST" action="xoa.php"
 				      <pre>
 						Mã số sinh viên cần XÓA: <input type="text" name="uname">
 						<hr>
 					</pre>
 				  </form>
-			<h2>DANH SÁCH SINH VIÊN HIỆN TẠI</h2>
+			<h2 style="color: blue;">>DANH SÁCH SINH VIÊN HIỆN TẠI</h2>
 
 		<?php
 			$cn = pg_connect("host=ec2-18-214-134-226.compute-1.amazonaws.com port=5432 dbname=d5tmin00bciu1i user=zmqcfqvmpyljhr password=9f82098da86027af5990973f6e6f36ad470852bdd6b70a9bccd9cb6cb603495d");
