@@ -8,7 +8,7 @@
 	</head>
 
 	<body>
-		<h1 style="color: orange;">Hệ thống quản lý sinh viên</h1>
+		<h1>Hệ thống quản lý sinh viên</h1>
 		<h2 style="color: red;">Thêm sinh viên</h2>
 			<form name="flogin" method="POST" action="xuly.php"
 			      <pre>
@@ -17,9 +17,6 @@
 				Họ và tên: <input type="text" name="pword">
 				<br>
 				<input type="submit" name="them" value="THÊM">
-				<input type="button" name="sua" value="SỬA">
-				<input type="button" name="xoa" value="XÓA">
-				<hr>
 				</pre>
 			      </form>
 			<hr>
@@ -31,7 +28,6 @@
 						Họ và tên: <input type="text" name="pword">
 						<br>
 						<input type="submit" name="sua" value="SỬA">
-						<hr>
 					</pre>
 				  </form>
 			<hr>
