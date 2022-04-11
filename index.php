@@ -36,6 +36,8 @@
 				<form name="delete" method="POST" action="xoa.php"
 				      <pre>
 						Mã số sinh viên cần XÓA: <input type="text" name="uname">
+						<br>
+						<input type="submit" name="xoa" value="XÓA">
 						<hr>
 					</pre>
 				  </form>
