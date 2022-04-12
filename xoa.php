@@ -8,6 +8,7 @@
 
 	<body>
 		<h1>Hệ thống quản lý sinh viên</h1>
+		<hr>
 		<h2 style="color: red;">Thêm sinh viên</h2>
 			<form name="flogin" method="POST" action="them.php"
 			      <pre>
