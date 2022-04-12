@@ -9,7 +9,7 @@
 	<body background="giay-dan-tuong-tre-em-1317.jpg">
 		<h1 style="font-family:Trebuchet MS;color:red;">Hệ thống quản lý sinh viên</h1>
 			<hr>
-			 <h2 style="font-family:Trebuchet MS;color=green;">Thêm sinh viên</h2>
+			<h2 style="font-family:Trebuchet MS;color:green;">Thêm sinh viên</h2>
 				<form name="add" method="POST" action="them.php"
 				      <pre>
 						Mã số sinh viên: <input type="text" name="uname">
