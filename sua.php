@@ -20,7 +20,7 @@
 				</pre>
 			      </form>
 			<br>
-			<h2 style="font-family:Trebuchet MS;color:red;">Sửa sinh viên</h2>
+			<h2 style="font-family:Trebuchet MS;color:green;">Sửa sinh viên</h2>
 				<form name="update" method="POST" action="sua.php"
 				      <pre>
 						Mã số sinh viên cần sửa thông tin: <input type="text" name="uname">
@@ -31,7 +31,7 @@
 					</pre>
 				  </form>
 			<br>
-			<h2 style="font-family:Trebuchet MS;color:red;">Xóa sinh viên viên</h2>
+			<h2 style="font-family:Trebuchet MS;color:green;">Xóa sinh viên viên</h2>
 				<form name="delete" method="POST" action="xoa.php"
 				      <pre>
 						Mã số sinh viên cần XÓA: <input type="text" name="uname">
