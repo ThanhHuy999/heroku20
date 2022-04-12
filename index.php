@@ -6,7 +6,7 @@
 		<title> He thong quan ly sinh vien </title>
 	</head>
 
-	<body background="giay-dan-tuong-tre-em-1317.jpg">
+	<body background="abc.jpg">
 		<h1 style="font-family:Trebuchet MS;color:red;">Hệ thống quản lý sinh viên</h1>
 			<hr>
 			<h2 style="font-family:Trebuchet MS;color:green;">Thêm sinh viên</h2>
