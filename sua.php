@@ -7,9 +7,9 @@
 	</head>
 
 	<body background="abc.jpg">
-		<h1>Hệ thống quản lý sinh viên</h1>
+		<h1 style="font-family:Trebuchet MS;color:red;">Hệ thống quản lý sinh viên</h1>
 		<hr>
-		<h2 style="color: red;">Thêm sinh viên</h2>
+		<h2 style="font-family:Trebuchet MS;color:green;">Thêm sinh viên</h2>
 			<form name="flogin" method="POST" action="them.php"
 			      <pre>
 				Mã số sinh viên: <input type="text" name="uname">
@@ -19,8 +19,8 @@
 				<input type="submit" name="them" value="THÊM">
 				</pre>
 			      </form>
-			<hr>
-			<h2 style="color: red;">Sửa sinh viên</h2>
+			<br>
+			<h2 style="font-family:Trebuchet MS;color:red;">Sửa sinh viên</h2>
 				<form name="update" method="POST" action="sua.php"
 				      <pre>
 						Mã số sinh viên cần sửa thông tin: <input type="text" name="uname">
@@ -30,8 +30,8 @@
 						<input type="submit" name="sua" value="SỬA">
 					</pre>
 				  </form>
-			<hr>
-			<h2 style="color: red;">Xóa sinh viên viên</h2>
+			<br>
+			<h2 style="font-family:Trebuchet MS;color:red;">Xóa sinh viên viên</h2>
 				<form name="delete" method="POST" action="xoa.php"
 				      <pre>
 						Mã số sinh viên cần XÓA: <input type="text" name="uname">
@@ -40,7 +40,7 @@
 						<hr>
 					</pre>
 				  </form>
-			<h2 style="color: blue;">DANH SÁCH SINH VIÊN HIỆN TẠI</h2>
+			<h2 style="font-family:Trebuchet MS;color:orange;">DANH SÁCH SINH VIÊN HIỆN TẠI</h2>
 			<?php
 
 			$cn = pg_connect("host=ec2-18-214-134-226.compute-1.amazonaws.com port=5432 dbname=d5tmin00bciu1i user=zmqcfqvmpyljhr password=9f82098da86027af5990973f6e6f36ad470852bdd6b70a9bccd9cb6cb603495d");
