@@ -7,7 +7,7 @@
 	</head>
 
 	<body background="abc.jpg">
-		<h1 style="font-family:Trebuchet MS;color:red;">Hệ thống quản lý sinh viên</h1>
+		<h1 align="center" style="font-family:Trebuchet MS;color:red;">Hệ thống quản lý sinh viên</h1>
 		<hr>
 		<h2 style="font-family:Trebuchet MS;color:green;">Thêm sinh viên</h2>
 			<form name="flogin" method="POST" action="them.php"
@@ -40,7 +40,7 @@
 						<hr>
 					</pre>
 				  </form>
-			<h2 style="font-family:Trebuchet MS;color:orange;">DANH SÁCH SINH VIÊN HIỆN TẠI</h2>
+			<h2 align="center" style="font-family:Trebuchet MS;color:orange;">DANH SÁCH SINH VIÊN HIỆN TẠI</h2>
 			<?php
 
 			$cn = pg_connect("host=ec2-18-214-134-226.compute-1.amazonaws.com port=5432 dbname=d5tmin00bciu1i user=zmqcfqvmpyljhr password=9f82098da86027af5990973f6e6f36ad470852bdd6b70a9bccd9cb6cb603495d");
