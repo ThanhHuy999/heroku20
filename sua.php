@@ -31,7 +31,7 @@
 					</pre>
 				  </form>
 			<br>
-			<h2 style="font-family:Trebuchet MS;color:green;">Xóa sinh viên viên</h2>
+			<h2 style="font-family:Trebuchet MS;color:green;">Xóa sinh viên</h2>
 				<form name="delete" method="POST" action="xoa.php"
 				      <pre>
 						Mã số sinh viên cần XÓA: <input type="text" name="uname">
