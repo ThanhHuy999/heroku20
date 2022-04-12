@@ -7,7 +7,7 @@
 	</head>
 
 	<body background="giay-dan-tuong-tre-em-1317.jpg">
-		<h1 style="font-family:forte;" color="red";>Hệ thống quản lý sinh viên</h1>
+		<h1 style font-family="forte" color="red">Hệ thống quản lý sinh viên</h1>
 			<hr>
 			<h2 style="color: red;">Thêm sinh viên</h2>
 				<form name="add" method="POST" action="them.php"
