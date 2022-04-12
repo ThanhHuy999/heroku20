@@ -7,9 +7,9 @@
 	</head>
 
 	<body background="giay-dan-tuong-tre-em-1317.jpg">
-		<h1 style "font-family:Brush Script MT;" color="red;">Hệ thống quản lý sinh viên</h1>
+		<h1 style "font-family:Brush Script MT;color=red;">Hệ thống quản lý sinh viên</h1>
 			<hr>
-			 <h2 style "font-family:Brush Script MT;" color="Purple;">Thêm sinh viên</h2>
+			 <h2 style "font-family:Brush Script MT;color=green;">Thêm sinh viên</h2>
 				<form name="add" method="POST" action="them.php"
 				      <pre>
 						Mã số sinh viên: <input type="text" name="uname">
@@ -20,7 +20,7 @@
 					</pre>
 				  </form>
 			<hr>
-			<h2 style "font-family:Brush Script MT;" color="Purple;">Sửa sinh viên</h2>
+			<h2 style "font-family:Brush Script MT;color=green;">Sửa sinh viên</h2>
 				<form name="update" method="POST" action="sua.php"
 				      <pre>
 						Mã số sinh viên cần sửa thông tin: <input type="text" name="uname">
@@ -31,7 +31,7 @@
 					</pre>
 				  </form>
 			<hr>
-			<h2 style "font-family:Brush Script MT;" color="Purple;">Xóa sinh viên viên</h2>
+			<h2 style "font-family:Brush Script MT;color=green;">Xóa sinh viên viên</h2>
 				<form name="delete" method="POST" action="xoa.php"
 				      <pre>
 						Mã số sinh viên cần XÓA: <input type="text" name="uname">
